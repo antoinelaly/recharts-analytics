@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.leradar { background-color: #282D30;margin-right: 20px;}
+
+.recharts-layer text { color: #fff;}
+.leradar line { display: none;}
+
+.recharts-polar-angle-axis-tick-value  {
+    transform: translateY(.3rem);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.fontSize { font-size: .8em;line-height: 32px;}
+.theprofile { display: flex; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.main { padding-left: 109px;padding-top: 25px;}
+.legraf {display: flex;justify-content: space-between;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.recharts { width: 70%;}
+.rightbar { width: 250px;padding-left: 109px; }
 
-.App-link {
-  color: #61dafb;
-}
+.leradial  { padding: 70px;height: 30px;width: 85px;}
+.leftbar {display: flex;height: 100%;width: 117px;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.labarre { display: block; height: 320px;width: 835px;}
+
+
+.laline h3 { font-weight: 500;color: #fff;opacity: 0.5;font-size: 15px;line-height: 24px;margin:0; }
+.laline .letitre { padding-left: 40px;margin:0;max-width: 140px;padding-bottom: 30px;padding-top: 20px; }
+.laline .lasemaine h3 { padding-left: 14px;letter-spacing: .68rem;padding-top: 10px; }
+.lelayer { display: flex; }
+.lelayer .colonnea { position: relative;z-index: -1; background-color: #FF0001;width: 179px;height: 263px;top: -263px;}
+.lelayer .colonneb { position: relative;z-index: -1; background-color: #e60000;width: 80px;height: 263px;left: 0px;top: -263px; }
